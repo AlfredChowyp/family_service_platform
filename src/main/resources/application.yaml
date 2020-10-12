@@ -5,9 +5,9 @@ server:
 #数据源配置
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/family_service_platform?serverTimeZone=UTC&useSSL=false
+    url: jdbc:mysql://localhost:3306/family_service_platform?serverTimezone=UTC&useSSL=false
     password: root
-    data-username: root
+    username: root
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 #配置mybatis
